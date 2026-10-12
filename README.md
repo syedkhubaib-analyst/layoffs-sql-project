@@ -53,7 +53,7 @@ layoffs-sql-project/
 │   ├── 02_cleaning.sql       # remove duplicates, standardize, fix types, handle NULLs
 │   ├── 03_analysis.sql       # trends, rankings, rolling totals
 │   └── 04_validation.sql     # 12 automated PASS/FAIL quality checks
-└──  make_charts.py            # regenerates the charts from the cleaned CSV
+└──  make_charts.py           # Visualizing data
 
 ```
 
