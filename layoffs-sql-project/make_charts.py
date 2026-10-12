@@ -1,4 +1,4 @@
-"""Regenerates the README charts from data/layoffs_cleaned.csv (output of the SQL pipeline)."""
+"""Visualizing data:"""
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
