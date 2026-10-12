@@ -43,7 +43,6 @@ These are descriptive patterns, not causal claims.
 ## Repository Structure
 ```
 layoffs-sql-project/
-├── README.md
 ├── data/
 │   ├── layoffs_raw.csv       # raw dataset (2,361 rows)
 │   └── layoffs_cleaned.csv   # cleaned output (1,995 rows), ready for Excel, Tableau or Power BI
@@ -53,6 +52,8 @@ layoffs-sql-project/
 │   ├── 02_cleaning.sql       # remove duplicates, standardize, fix types, handle NULLs
 │   ├── 03_analysis.sql       # trends, rankings, rolling totals
 │   └── 04_validation.sql     # 12 automated PASS/FAIL quality checks
+├── .gitattributes            # makes GitHub show SQL as the repo language
+├── README.md
 └──  make_charts.py           # Visualizing data
 
 ```
