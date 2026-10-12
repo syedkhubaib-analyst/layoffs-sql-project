@@ -54,7 +54,7 @@ layoffs-sql-project/
 │   └── 04_validation.sql     # 12 automated PASS/FAIL quality checks
 ├── .gitattributes            # makes GitHub show SQL as the repo language
 ├── README.md
-└──  make_charts.py           # Visualizing data
+└── make_charts.py            # Visualizing data
 
 ```
 
