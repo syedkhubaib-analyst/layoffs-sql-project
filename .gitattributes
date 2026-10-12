@@ -1,0 +1,2 @@
+ *.sql linguist-language=SQL
+   make_charts.py linguist-detectable=false
