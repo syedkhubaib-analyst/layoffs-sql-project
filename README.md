@@ -2,7 +2,7 @@
 
 An end-to-end SQL project: import a raw layoffs dataset, clean it, validate it, and explore it to answer **who laid off the most people, when, where, and what kind of companies were hit hardest.**
 
-**Stack:** MySQL 8.0 · SQL (CTEs, window functions, self-joins) · Python/matplotlib (charts only)
+**Stack:** MySQL 8.0 · SQL · Python/matplotlib (charts only)
 
 ---
 
