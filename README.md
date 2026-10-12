@@ -112,9 +112,6 @@ Data cleaning · CTEs · Window functions (`ROW_NUMBER`, `DENSE_RANK`, `LAG`, ru
 [Layoffs 2022 on Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022). The dataset remains subject to its original license and terms.
 
 ## Acknowledgements
-A huge thanks to Alex Freberg. His SQL tutorials helped me learn the core concepts and gave me the starting workflow for this project (duplicates → standardize → NULLs → remove).
+Special thanks to Alex Freberg. His structured SQL curriculum was instrumental in my mastery of core database concepts and gave me the starting workflow for this project (duplicates → standardize → NULLs → remove).
 
 I then extended it with a numeric type fix for `percentage_laid_off`, `Fin-Tech`/`Finance` and company-name standardization, a reproducible import script, 12 automated validation checks, additional analyses (location, funding stage, year-over-year, shutdowns by stage), charts and a cleaned export.
-
-## License
-Code released under the MIT License (see `LICENSE`).
