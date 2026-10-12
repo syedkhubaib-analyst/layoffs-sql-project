@@ -102,7 +102,6 @@ Row counts reconcile with an independent pandas reproduction of the pipeline, an
 - **Missing values:** `total_laid_off` is missing in 378 rows and `percentage_laid_off` in 423 of the cleaned rows, so totals are a lower bound.
 - **One undated record** (500 layoffs) is excluded from time-based queries.
 - **Exact-match deduplication only.** Near-duplicates (same company, date and headcount with a different secondary field) are not removed. Example: Oda has three 2022-11-01 rows of 70 with different percentages, countries and funding figures.
-- **Bally's Interactive** keeps a NULL industry because no other record exists to copy from.
 - Data is compiled from public reports and is not an official count.
 
 ## Skills Demonstrated
