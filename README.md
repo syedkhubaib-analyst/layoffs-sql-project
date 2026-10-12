@@ -44,18 +44,17 @@ These are descriptive patterns, not causal claims.
 ```
 layoffs-sql-project/
 ├── README.md
-├── LICENSE
-├── .gitignore
-├── make_charts.py            # regenerates the charts from the cleaned CSV
 ├── data/
 │   ├── layoffs_raw.csv       # raw dataset (2,361 rows)
 │   └── layoffs_cleaned.csv   # cleaned output (1,995 rows), ready for Excel, Tableau or Power BI
+├── images/                   # charts used in this README
 ├── sql/
 │   ├── 01_setup.sql          # create schema and load the raw CSV
 │   ├── 02_cleaning.sql       # remove duplicates, standardize, fix types, handle NULLs
 │   ├── 03_analysis.sql       # trends, rankings, rolling totals
 │   └── 04_validation.sql     # 12 automated PASS/FAIL quality checks
-└── images/                   # charts used in this README
+└──  make_charts.py            # regenerates the charts from the cleaned CSV
+
 ```
 
 ## How to Run
